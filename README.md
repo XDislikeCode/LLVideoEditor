@@ -1,3 +1,17 @@
+# 一个基于AVFoundation的实用的视频编辑库
+
+## 功能
+* 水印
+* 区域裁剪
+* 旋转
+* 加音效
+* 时长裁切
+
+更新：基于作者的视频编辑上添加了视频时长的裁剪接口
+
+
+---
+
 # LLVideoEditor: An easy to use library for editing videos.
 
 LLVideoEditor is a library for rotating, cropping, adding layers (watermark) and as well as adding audio (music) to the videos.
