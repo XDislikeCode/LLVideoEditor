@@ -13,18 +13,19 @@
 		170030BA1B11F5A200585CEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 170030B81B11F5A200585CEB /* LaunchScreen.xib */; };
 		170030C61B11F5A300585CEB /* LLVideoEditorExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170030C51B11F5A300585CEB /* LLVideoEditorExampleTests.m */; };
 		1744CBF81B19E871001A9045 /* applause-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1744CBF71B19E871001A9045 /* applause-01.mp3 */; };
-		1744CBFC1B1A24ED001A9045 /* LLRotateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1744CBFB1B1A24ED001A9045 /* LLRotateCommand.m */; };
-		1744CC051B1A3F49001A9045 /* LLCropCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1744CC041B1A3F49001A9045 /* LLCropCommand.m */; };
-		1744CC0B1B1A41E3001A9045 /* LLVideoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1744CC0A1B1A41E3001A9045 /* LLVideoData.m */; };
-		17F97ABF1B125B850045633E /* LLVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F97ABE1B125B850045633E /* LLVideoEditor.m */; };
 		17F97AC21B12604D0045633E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F97AC11B12604D0045633E /* HomeViewController.m */; };
 		17F97AC61B126E750045633E /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F97AC51B126E750045633E /* VideoViewController.m */; };
 		17F97ACB1B126FC80045633E /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 17F97AC81B126FC80045633E /* cancel.png */; };
 		17F97ACC1B126FC80045633E /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17F97AC91B126FC80045633E /* cancel@2x.png */; };
 		17F97ACD1B126FC80045633E /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17F97ACA1B126FC80045633E /* cancel@3x.png */; };
-		17FD4ECB1B1B930A009166E7 /* LLAddLayerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FD4ECA1B1B930A009166E7 /* LLAddLayerCommand.m */; };
-		17FD4ED11B1BB248009166E7 /* LLAddAudioCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FD4ED01B1BB248009166E7 /* LLAddAudioCommand.m */; };
-		662FA662166554732FC2D5D7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA7530E0A8255DB47DA9A9E /* libPods.a */; };
+		4CA5BA21A724B87540B0DFA1 /* libPods-LLVideoEditorExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECDC76C1C641F16EB26BC20 /* libPods-LLVideoEditorExample.a */; };
+		711689321FB7040000073315 /* LLAddAudioCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 711689251FB7040000073315 /* LLAddAudioCommand.m */; };
+		711689331FB7040000073315 /* LLAddLayerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 711689271FB7040000073315 /* LLAddLayerCommand.m */; };
+		711689341FB7040000073315 /* LLCropCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 711689291FB7040000073315 /* LLCropCommand.m */; };
+		711689351FB7040000073315 /* LLRotateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116892B1FB7040000073315 /* LLRotateCommand.m */; };
+		711689361FB7040000073315 /* LLTrimCommend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116892D1FB7040000073315 /* LLTrimCommend.m */; };
+		711689371FB7040000073315 /* LLVideoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116892F1FB7040000073315 /* LLVideoData.m */; };
+		711689381FB7040000073315 /* LLVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 711689311FB7040000073315 /* LLVideoEditor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,14 +50,6 @@
 		170030C41B11F5A300585CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		170030C51B11F5A300585CEB /* LLVideoEditorExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLVideoEditorExampleTests.m; sourceTree = "<group>"; };
 		1744CBF71B19E871001A9045 /* applause-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "applause-01.mp3"; sourceTree = "<group>"; };
-		1744CBFA1B1A24ED001A9045 /* LLRotateCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRotateCommand.h; sourceTree = "<group>"; };
-		1744CBFB1B1A24ED001A9045 /* LLRotateCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRotateCommand.m; sourceTree = "<group>"; };
-		1744CC031B1A3F49001A9045 /* LLCropCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCropCommand.h; sourceTree = "<group>"; };
-		1744CC041B1A3F49001A9045 /* LLCropCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCropCommand.m; sourceTree = "<group>"; };
-		1744CC091B1A41E3001A9045 /* LLVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLVideoData.h; sourceTree = "<group>"; };
-		1744CC0A1B1A41E3001A9045 /* LLVideoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLVideoData.m; sourceTree = "<group>"; };
-		17F97ABD1B125B850045633E /* LLVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLVideoEditor.h; path = LLVideoEditor/LLVideoEditor.h; sourceTree = SOURCE_ROOT; };
-		17F97ABE1B125B850045633E /* LLVideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLVideoEditor.m; path = LLVideoEditor/LLVideoEditor.m; sourceTree = SOURCE_ROOT; };
 		17F97AC01B12604D0045633E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		17F97AC11B12604D0045633E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		17F97AC41B126E750045633E /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
@@ -64,13 +57,23 @@
 		17F97AC81B126FC80045633E /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
 		17F97AC91B126FC80045633E /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
 		17F97ACA1B126FC80045633E /* cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@3x.png"; sourceTree = "<group>"; };
-		17FD4EC91B1B930A009166E7 /* LLAddLayerCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAddLayerCommand.h; sourceTree = "<group>"; };
-		17FD4ECA1B1B930A009166E7 /* LLAddLayerCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAddLayerCommand.m; sourceTree = "<group>"; };
-		17FD4ECF1B1BB248009166E7 /* LLAddAudioCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAddAudioCommand.h; sourceTree = "<group>"; };
-		17FD4ED01B1BB248009166E7 /* LLAddAudioCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAddAudioCommand.m; sourceTree = "<group>"; };
-		242DAA5169A01C87AE015614 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		6CA7530E0A8255DB47DA9A9E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6EEE3EF13A06B178AE2A9D0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1F5F1EEABAED2BA3F9127ADD /* Pods-LLVideoEditorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLVideoEditorExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLVideoEditorExample/Pods-LLVideoEditorExample.debug.xcconfig"; sourceTree = "<group>"; };
+		3ECDC76C1C641F16EB26BC20 /* libPods-LLVideoEditorExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLVideoEditorExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711689241FB7040000073315 /* LLAddAudioCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAddAudioCommand.h; sourceTree = "<group>"; };
+		711689251FB7040000073315 /* LLAddAudioCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAddAudioCommand.m; sourceTree = "<group>"; };
+		711689261FB7040000073315 /* LLAddLayerCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAddLayerCommand.h; sourceTree = "<group>"; };
+		711689271FB7040000073315 /* LLAddLayerCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAddLayerCommand.m; sourceTree = "<group>"; };
+		711689281FB7040000073315 /* LLCropCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCropCommand.h; sourceTree = "<group>"; };
+		711689291FB7040000073315 /* LLCropCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCropCommand.m; sourceTree = "<group>"; };
+		7116892A1FB7040000073315 /* LLRotateCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRotateCommand.h; sourceTree = "<group>"; };
+		7116892B1FB7040000073315 /* LLRotateCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRotateCommand.m; sourceTree = "<group>"; };
+		7116892C1FB7040000073315 /* LLTrimCommend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTrimCommend.h; sourceTree = "<group>"; };
+		7116892D1FB7040000073315 /* LLTrimCommend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTrimCommend.m; sourceTree = "<group>"; };
+		7116892E1FB7040000073315 /* LLVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLVideoData.h; sourceTree = "<group>"; };
+		7116892F1FB7040000073315 /* LLVideoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLVideoData.m; sourceTree = "<group>"; };
+		711689301FB7040000073315 /* LLVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLVideoEditor.h; sourceTree = "<group>"; };
+		711689311FB7040000073315 /* LLVideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLVideoEditor.m; sourceTree = "<group>"; };
+		BF2A6D8DD9668D544EB1A81B /* Pods-LLVideoEditorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLVideoEditorExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLVideoEditorExample/Pods-LLVideoEditorExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662FA662166554732FC2D5D7 /* libPods.a in Frameworks */,
+				4CA5BA21A724B87540B0DFA1 /* libPods-LLVideoEditorExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +101,8 @@
 				170030A81B11F5A200585CEB /* LLVideoEditorExample */,
 				170030C21B11F5A300585CEB /* LLVideoEditorExampleTests */,
 				170030A71B11F5A200585CEB /* Products */,
-				D90D0C27D50234A9D1D65CFF /* Pods */,
-				435E9D39261838CEB9706377 /* Frameworks */,
+				17C33CF3EA83BF7C084F3C19 /* Pods */,
+				E450623C8E1CAA7DE0FCFA7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,9 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				1744CBF71B19E871001A9045 /* applause-01.mp3 */,
+				711689221FB7040000073315 /* LLVideoEditor */,
 				17F97AC71B126FC30045633E /* Images */,
 				17F97AC31B1260630045633E /* Controllers */,
-				17F97AB91B125B690045633E /* LLVideoEditor */,
 				170030AD1B11F5A200585CEB /* AppDelegate.h */,
 				170030AE1B11F5A200585CEB /* AppDelegate.m */,
 				170030B61B11F5A200585CEB /* Images.xcassets */,
@@ -154,32 +157,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1744CBF91B1A24C5001A9045 /* Commands */ = {
+		17C33CF3EA83BF7C084F3C19 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1744CBFA1B1A24ED001A9045 /* LLRotateCommand.h */,
-				1744CBFB1B1A24ED001A9045 /* LLRotateCommand.m */,
-				1744CC031B1A3F49001A9045 /* LLCropCommand.h */,
-				1744CC041B1A3F49001A9045 /* LLCropCommand.m */,
-				17FD4EC91B1B930A009166E7 /* LLAddLayerCommand.h */,
-				17FD4ECA1B1B930A009166E7 /* LLAddLayerCommand.m */,
-				17FD4ECF1B1BB248009166E7 /* LLAddAudioCommand.h */,
-				17FD4ED01B1BB248009166E7 /* LLAddAudioCommand.m */,
+				1F5F1EEABAED2BA3F9127ADD /* Pods-LLVideoEditorExample.debug.xcconfig */,
+				BF2A6D8DD9668D544EB1A81B /* Pods-LLVideoEditorExample.release.xcconfig */,
 			);
-			path = Commands;
+			name = Pods;
 			sourceTree = "<group>";
-		};
-		17F97AB91B125B690045633E /* LLVideoEditor */ = {
-			isa = PBXGroup;
-			children = (
-				1744CBF91B1A24C5001A9045 /* Commands */,
-				17F97ABD1B125B850045633E /* LLVideoEditor.h */,
-				17F97ABE1B125B850045633E /* LLVideoEditor.m */,
-				1744CC091B1A41E3001A9045 /* LLVideoData.h */,
-				1744CC0A1B1A41E3001A9045 /* LLVideoData.m */,
-			);
-			path = LLVideoEditor;
-			sourceTree = SOURCE_ROOT;
 		};
 		17F97AC31B1260630045633E /* Controllers */ = {
 			isa = PBXGroup;
@@ -202,21 +187,41 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		435E9D39261838CEB9706377 /* Frameworks */ = {
+		711689221FB7040000073315 /* LLVideoEditor */ = {
 			isa = PBXGroup;
 			children = (
-				6CA7530E0A8255DB47DA9A9E /* libPods.a */,
+				711689231FB7040000073315 /* Commands */,
+				7116892E1FB7040000073315 /* LLVideoData.h */,
+				7116892F1FB7040000073315 /* LLVideoData.m */,
+				711689301FB7040000073315 /* LLVideoEditor.h */,
+				711689311FB7040000073315 /* LLVideoEditor.m */,
 			);
-			name = Frameworks;
+			path = LLVideoEditor;
 			sourceTree = "<group>";
 		};
-		D90D0C27D50234A9D1D65CFF /* Pods */ = {
+		711689231FB7040000073315 /* Commands */ = {
 			isa = PBXGroup;
 			children = (
-				F6EEE3EF13A06B178AE2A9D0 /* Pods.debug.xcconfig */,
-				242DAA5169A01C87AE015614 /* Pods.release.xcconfig */,
+				711689241FB7040000073315 /* LLAddAudioCommand.h */,
+				711689251FB7040000073315 /* LLAddAudioCommand.m */,
+				711689261FB7040000073315 /* LLAddLayerCommand.h */,
+				711689271FB7040000073315 /* LLAddLayerCommand.m */,
+				711689281FB7040000073315 /* LLCropCommand.h */,
+				711689291FB7040000073315 /* LLCropCommand.m */,
+				7116892A1FB7040000073315 /* LLRotateCommand.h */,
+				7116892B1FB7040000073315 /* LLRotateCommand.m */,
+				7116892C1FB7040000073315 /* LLTrimCommend.h */,
+				7116892D1FB7040000073315 /* LLTrimCommend.m */,
 			);
-			name = Pods;
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		E450623C8E1CAA7DE0FCFA7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ECDC76C1C641F16EB26BC20 /* libPods-LLVideoEditorExample.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,11 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 170030C91B11F5A300585CEB /* Build configuration list for PBXNativeTarget "LLVideoEditorExample" */;
 			buildPhases = (
-				CBCBD53B6F3B07B8B9B0F3DD /* Check Pods Manifest.lock */,
+				8285F3447DEE0A22718E545F /* [CP] Check Pods Manifest.lock */,
 				170030A21B11F5A200585CEB /* Sources */,
 				170030A31B11F5A200585CEB /* Frameworks */,
 				170030A41B11F5A200585CEB /* Resources */,
-				4F1D2F2B01A617C144BAE61C /* Copy Pods Resources */,
+				3848DE9E549A211A63E33270 /* [CP] Embed Pods Frameworks */,
+				A9B5334FDCD46CDCC126853D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +276,7 @@
 				TargetAttributes = {
 					170030A51B11F5A200585CEB = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = W2JSHH2VCW;
 					};
 					170030BE1B11F5A300585CEB = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -320,34 +327,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4F1D2F2B01A617C144BAE61C /* Copy Pods Resources */ = {
+		3848DE9E549A211A63E33270 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLVideoEditorExample/Pods-LLVideoEditorExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CBCBD53B6F3B07B8B9B0F3DD /* Check Pods Manifest.lock */ = {
+		8285F3447DEE0A22718E545F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLVideoEditorExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B5334FDCD46CDCC126853D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLVideoEditorExample/Pods-LLVideoEditorExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -357,16 +382,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1744CBFC1B1A24ED001A9045 /* LLRotateCommand.m in Sources */,
-				1744CC0B1B1A41E3001A9045 /* LLVideoData.m in Sources */,
+				711689361FB7040000073315 /* LLTrimCommend.m in Sources */,
 				17F97AC61B126E750045633E /* VideoViewController.m in Sources */,
-				17F97ABF1B125B850045633E /* LLVideoEditor.m in Sources */,
+				711689331FB7040000073315 /* LLAddLayerCommand.m in Sources */,
+				711689351FB7040000073315 /* LLRotateCommand.m in Sources */,
+				711689321FB7040000073315 /* LLAddAudioCommand.m in Sources */,
 				170030AF1B11F5A200585CEB /* AppDelegate.m in Sources */,
 				170030AC1B11F5A200585CEB /* main.m in Sources */,
-				17FD4ED11B1BB248009166E7 /* LLAddAudioCommand.m in Sources */,
+				711689371FB7040000073315 /* LLVideoData.m in Sources */,
 				17F97AC21B12604D0045633E /* HomeViewController.m in Sources */,
-				17FD4ECB1B1B930A009166E7 /* LLAddLayerCommand.m in Sources */,
-				1744CC051B1A3F49001A9045 /* LLCropCommand.m in Sources */,
+				711689341FB7040000073315 /* LLCropCommand.m in Sources */,
+				711689381FB7040000073315 /* LLVideoEditor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,9 +508,10 @@
 		};
 		170030CA1B11F5A300585CEB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6EEE3EF13A06B178AE2A9D0 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 1F5F1EEABAED2BA3F9127ADD /* Pods-LLVideoEditorExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2JSHH2VCW;
 				INFOPLIST_FILE = LLVideoEditorExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,9 +520,10 @@
 		};
 		170030CB1B11F5A300585CEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242DAA5169A01C87AE015614 /* Pods.release.xcconfig */;
+			baseConfigurationReference = BF2A6D8DD9668D544EB1A81B /* Pods-LLVideoEditorExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2JSHH2VCW;
 				INFOPLIST_FILE = LLVideoEditorExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

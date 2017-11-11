@@ -67,7 +67,7 @@
         make.bottom.equalTo(superview).offset(-20.0f);
     }];
     
-    [self.snapButtonBgView addSubview:self.snapButton];
+    [self.snapButtonBgView.contentView addSubview:self.snapButton];
     [self.snapButton addTarget:self action:@selector(snapButtonTouchDown:) forControlEvents:UIControlEventTouchDown];
     [self.snapButton addTarget:self action:@selector(snapButtonTouchUpInside:) forControlEvents:UIControlEventTouchUpInside];
     [self.snapButton addTarget:self action:@selector(snapButtonTouchUpOutside:) forControlEvents:UIControlEventTouchUpOutside];

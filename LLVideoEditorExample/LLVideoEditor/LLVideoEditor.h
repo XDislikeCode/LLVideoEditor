@@ -46,6 +46,13 @@ typedef enum : NSUInteger {
 - (void)crop:(CGRect)cropFrame;
 
 /**
+ Trim the video with the starttime seconds and duration
+ @param startTime seconds
+ @param duration seconds
+ */
+- (void)trimStartTime:(double)startTime duration:(double)duration;
+
+/**
  * Add audio to the video.
  * @param asset Audio asset
  */

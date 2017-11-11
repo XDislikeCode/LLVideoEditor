@@ -15,6 +15,7 @@
 #import "LLRotateCommand.h"
 #import "LLAddLayerCommand.h"
 #import "LLAddAudioCommand.h"
+#import "LLTrimCommend.h"
 
 @interface LLVideoEditor()
 @property (strong, nonatomic) LLVideoData *videoData;
@@ -62,6 +63,11 @@
     [self.commands addObject:command];
 }
 
+-(void)trimStartTime:(double)startTime duration:(double)duration
+{
+    LLTrimCommend *command = [[LLTrimCommend alloc] initWithVideoData:self.videoData startTime:startTime duration:duration];
+    [self.commands addObject:command];
+}
 
 - (void)addLayer:(CALayer *)layer {
     LLAddLayerCommand *command = [[LLAddLayerCommand alloc] initWithVideoData:self.videoData layer:layer];
@@ -111,7 +117,7 @@
 
 - (void)exportToUrl:(NSURL *)exportUrl completionBlock:(void (^)(AVAssetExportSession *session))completionBlock {
         [self exportToUrl:exportUrl
-               presetName:AVAssetExportPreset1280x720
+               presetName:AVAssetExportPresetMediumQuality
     optimizeForNetworkUse:YES
            outputFileType:AVFileTypeQuickTimeMovie
           completionBlock:completionBlock];
